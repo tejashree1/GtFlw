@@ -10,7 +10,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("intitial setup");
+            Console.Write("What's your name? ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello {0}", name);
+            Console.ReadLine();
         }
     }
 }
